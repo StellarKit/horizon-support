@@ -25,3 +25,11 @@ Run the docker:
     docker-compose up -d
 
  Now click the Launch button in VSCode on top left and it will run Horizon and use this core/postgress and you can debug.
+
+You can monitor stellar-core with:
+
+```
+docker logs --tail=500 --follow support-core
+```
+
+Or you can omit the -d and see the output from core
