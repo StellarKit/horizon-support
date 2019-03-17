@@ -32,6 +32,10 @@ Run the docker:
 
  Now click the Launch button in VSCode on top left and it will run Horizon and use this core/postgress and you can debug.
 
+A directory will appear in this project directory named 'stellar' which holds the files for core and the postgres data for core and horizon running in Docker.
+
+You can delete this to reset core and the data bases.  But if you do, core  will have to resync which can be slow, delete only what you need to reset.
+
 You can monitor stellar-core with:
 
 ```
